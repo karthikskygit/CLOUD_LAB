@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Same JAVA WebApplication Page</title>
+    <title>"Warm Welcome to DevOps World" </title>
   </head>
   <body bgcolor=white>
 
@@ -10,12 +10,12 @@
           <img src="polaris.jpeg">
         </td>
         <td>
-          <h1>Same JAVA WebApplication Page</h1>
+          <h1>"Warm Welcome to DevOps World"</h1>
         </td>
       </tr>
     </table>
 
-    <p>This is the home page for the HelloPolaris Web application. </p>
+    <p>This is the home page for the Java Web application. </p>
     <p>To prove that they work, you can execute either of the following links:
     <ul>
             <li>To a <a href="hello">servlet</a>.
