@@ -33,7 +33,7 @@ public class BaseController {
 
 		model.addAttribute("message", "Welcome Polarite " + name);
 		model.addAttribute("message", "Welcome SCM PRACTICE TEAM " + name);
-		model.addAttribute("message", "Warm Welcome Shivababu  " ) ;
+		model.addAttribute("message", "Warm Welcome Shyamala  " ) ;
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcomeName] counter : {}", counter);
 		return VIEW_INDEX;
