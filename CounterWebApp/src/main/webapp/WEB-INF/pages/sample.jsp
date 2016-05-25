@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>"Warm Welcome to DevOps World" </title>
+    <title>"Warm Welcome to DevOps + Docker World" </title>
   </head>
   <body bgcolor=white>
 
