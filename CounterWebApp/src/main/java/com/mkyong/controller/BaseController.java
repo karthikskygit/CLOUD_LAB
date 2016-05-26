@@ -19,8 +19,6 @@ public class BaseController {
 	public String welcome(ModelMap model) {
 
 		model.addAttribute("message", "Welcome Polarite");
-		model.addAttribute("message", "Welcome SCM PRACTICE TEAM");
-		model.addAttribute("message", "Welcome SCM PRACTICE TEAM WARM WELCOME TO YOU");
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : {}", counter);
 
@@ -33,8 +31,6 @@ public class BaseController {
 	public String welcomeName(@PathVariable String name, ModelMap model) {
 
 		model.addAttribute("message", "Welcome Polarite " + name);
-		model.addAttribute("message", "Welcome SCM PRACTICE TEAM " + name);
-		model.addAttribute("message", "Warm Welcome Docker Team  " ) ;
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcomeName] counter : {}", counter);
 		return VIEW_INDEX;
